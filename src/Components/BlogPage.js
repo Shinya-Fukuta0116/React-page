@@ -3,9 +3,7 @@ import './Header.css'
 
 const BlogPage = () => {
   return (
-    <div className='wrapper'>
-      BlogPage
-    </div>
+    BlogPage
   )
 }
 

@@ -4,9 +4,9 @@ import './Header.css'
 
 const HomePage = () => {
   return (
-    <div className='wrapper'>
-      Home
-    </div>
+    <main>
+    
+    </main>
   )
 }
 
