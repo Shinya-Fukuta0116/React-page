@@ -66,9 +66,9 @@ nav .inner ul li a{
 }
 
 
-nav .inner ul li a:hover{
+/* nav .inner ul li a:hover{
   background: #e4e4e4;
-}
+} */
 
 .toggle-btn{
   width: 30px;
@@ -168,4 +168,62 @@ img {
   height: 294.4px;
 }
 
+.link-text{
+  display: block;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.5s;
+  background: transparent;
+}
+
+#footer {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+#footer .menu {
+  display: flex;
+}
+
+#footer .menu li {
+  font-size: 0.75rem;
+  margin-right: 30px;
+  list-style: none;
+}
+
+
+#footer .menu li a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#footer .copyright {
+  font-size: 0.625rem;
+}
+
+.content {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.page-title {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#blog {
+  max-width: 600px;
+}
+
+#blog p {
+  line-height: 1.9;
+  margin-bottom: 30px;
+}
 

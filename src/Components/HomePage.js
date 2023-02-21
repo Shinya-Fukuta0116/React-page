@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import Image from './img/couch-g68f2df79f_1920.jpg'
+import Image from './img/couch.jpg'
 
 
 const HomePage = () => {
@@ -55,8 +55,8 @@ const HomePage = () => {
           <p>プロダクトタイトルプロダクトタイトル<br />
             ¥99,999 +tax</p>
         </li>
-
       </ul >
+      <a className="link-text" href="products.html">View More</a>
     </main>
   )
 }

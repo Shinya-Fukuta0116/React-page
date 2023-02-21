@@ -17,10 +17,13 @@ const Header = () => {
           <div className='inner'>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" className='toggle-btn' onClick={classToggle}>Home</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link to="/blog" className='toggle-btn' onClick={classToggle}>Blog</Link>
+              </li>
+              <li>
+                <Link to="/company" className='toggle-btn' onClick={classToggle}>Company</Link>
               </li>
             </ul>
           </div>
