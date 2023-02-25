@@ -3,8 +3,8 @@ import './Header.css'
 
 const BlogPage = () => {
   return (
-    <div class="content wrapper">
-        <h1 class="page-title">Blog</h1>
+    <div className="content wrapper">
+        <h1 className="page-title">Blog</h1>
         <div id="blog">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod maxime consequuntur consequatur quos neque, molestiae laudantium accusantium commodi distinctio, eius aliquam unde similique quae. Veritatis illum amet eaque distinctio recusandae.

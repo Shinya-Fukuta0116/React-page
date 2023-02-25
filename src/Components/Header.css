@@ -16,14 +16,8 @@
   max-width: 1360px;
   margin: 0 auto;
   padding: 0 40px;
+}
 
-}
-main {
-  width: 100%;
-  max-width: 1360px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
 
 nav{
   display: block;
@@ -64,11 +58,6 @@ nav .inner ul li a{
   padding: 1rem;
   transition-duration: 0.2s;
 }
-
-
-/* nav .inner ul li a:hover{
-  background: #e4e4e4;
-} */
 
 .toggle-btn{
   width: 30px;
@@ -226,4 +215,6 @@ img {
   line-height: 1.9;
   margin-bottom: 30px;
 }
+
+
 

@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.content {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+
+.page-title {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#company dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#company .info{
+  width: 600px;
+}
+
+#company dt {
+  width: 30%;
+  border-bottom: solid 1px #dcdbdb;
+  padding: 20px 10px;
+  font-weight: lighter;
+}
+
+#company dd {
+  width: 70%;
+  border-bottom: solid 1px #dcdbdb;
+  padding: 20px 10px;
+  margin-bottom: 0;
+}
+
+#company dt:last-of-type {
+  border-bottom: none;
+}
+
+iframe{
+  width: 600px;
+  height: 300px;
+}
